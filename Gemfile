@@ -12,6 +12,10 @@ group :development, :test do
   gem 'capybara'
 end
 
+group :test do
+	gem 'factory_girl_rails', '1.4.0'
+end
+
 gem 'annotate', '2.5.0', group: :development
 
 gem 'json'
